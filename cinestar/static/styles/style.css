@@ -1,0 +1,46 @@
+/*
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Century Gothic", Arial, Verdana;
+}
+
+.nav-superior {
+  width: 100%;
+  background-image: url(../img/varios/nav-superior.png);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-collapse {
+  background-image: url(../img/varios/nav-inferior.png);
+}
+
+.navbar-collapse a {
+  font-size: 12px;
+  color: black;
+}
+
+.body {
+  background-image: url(../img/varios/fondo.png);
+  background-repeat: repeat-x;
+}
+
+@media (width< 720px) {
+  .navbar-collapse a {
+    font-size: 20px;
+  }
+
+  .slider img {
+    width: 90%;
+  }
+}
